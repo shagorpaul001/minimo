@@ -1,0 +1,315 @@
+@font-face {
+  src: url(../fonts/sourcesanspro-bold.otf);
+  font-family: sourcesanspro-bold;
+}
+/* common css start */
+  body {
+    font-family: sourcesanspro-bold;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+  }
+/* common css end */
+/* header start */
+  header {
+    padding: 30px 0;
+  }
+  .container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+  }
+  .logo {
+    width: 12%;
+    float: left;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .menu {
+    width: 50%;
+    float: right;
+  }
+  .menu ul {
+    float: right;
+  }
+  .menu ul li {
+    float: left;
+    list-style: none;
+  }
+  .menu ul li a {
+    font-size: 15px;
+    padding: 0 40px;
+   text-decoration: none;
+   transition: .33s;
+   color: #626262;
+  }
+  .menu ul li a:hover {
+    color: #008aff;
+  }
+  .menu ul li:last-child a {
+    padding-right: 0;
+  }
+/* header end */
+/* banner start */
+  .banner {
+  }
+  .img {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .img img {
+    padding-bottom: 74px;
+    width: 100%;
+  }
+/* banner end */
+/* text start */
+  .text {
+    padding: 70px 0;
+  }
+  .perfect {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .photo {
+    font-size: 14px;
+    color: #b4ad9e;
+  }
+  .weekend {
+    font-size: 30px;
+    color: #626262;
+  }
+  .consectetur {
+    font-size: #b4ad9e;
+    color: #878787;
+    line-height: 25px;
+  }
+  .button {
+    padding-top: 0;
+    float: left;
+  }
+  #button {
+    width: 200px;
+    height: 52px;
+    background-color: #ff6162;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #ff6162;
+  }
+  #button a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+/* text end */
+/* music start */
+  .music {}
+  .container2 {
+    padding: 75px 0px;
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+  }
+  .commodo {
+    width: 45%;
+    float: left;
+  }
+  .commodo1 {
+    width: 45%;
+    float: right;
+  }
+  .commodo img {
+    width: 100%;
+  }
+  .commodo1 img {
+    width: 100%;
+  }
+  .labore {
+    font-size: 14px;
+    color: #b4ad9e;
+  }
+  .festival {
+    margin: 1;
+    font-size: 36px;
+    color: #626262;
+  }
+  .incididunt {
+    font-size: 18px;
+    color: #626262;
+    line-height: 25px;
+  }
+/* music end */
+/* dream start */
+  .dream {}
+  .container4 {
+    padding: 75px 0px;
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+  }
+  .coffee {
+    width: 45%;
+    float: left;
+  }
+  .coffee2 {
+     width: 45%;
+    float: right;
+  }
+  .coffee img {
+    width: 100%;
+  }
+  .coffee2 img {
+    width: 100%;
+  }
+  .eiusmod {
+    font-size: 14px;
+    color: #b4ad9e;
+  }
+  .tempor {
+    margin: 1;
+    font-size: 36px;
+    color: #626262;
+  }
+  .exercitation {
+    font-size: 18px;
+    color: #626262;
+    line-height: 25px;
+  }
+/* dream end */
+/* news start */
+  .news {
+    background-color: #f0f0f0;
+    padding: 70px 0;
+  }
+  .container1 {
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+  }
+  .signup {
+    text-align: center;
+  }
+  .s_h1 {
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+  }
+  .s_form {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .s_form input {
+    font-family: 'Playfair Display',serif;
+    font-size: 14px;
+    color: #626262;
+    width: 380px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 15px;
+  }
+  .s_form input:focus {
+    outline: 0;
+  }
+  .s_form button {
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+  }
+  .s_form button:focus {
+    outline: 0;
+  }
+  .s_form button img {}
+/* news end */
+/* song start */
+  .song {}
+  .container5 {
+    padding: 75px 0px;
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+  }
+  .cold {
+    width: 45%;
+    float: left;
+  }
+  .cold2 {
+     width: 45%;
+    float: right;
+  }
+  .cold img {
+    width: 100%;
+  }
+  .cold2 img {
+    width: 100%;
+  }
+  .ullamco {
+   font-size: 14px;
+    color: #b4ad9e;
+  }
+  .laboris {
+    margin: 0;
+    font-size: 36px;
+    color: #626262;
+  }
+  .incididunt {
+    font-size: 18px;
+    color: #626262;
+    line-height: 25px;
+  }
+/* song end */
+/* laod start */
+  .container7 {
+    padding: 70px 550px;
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+  }
+  .button {
+    padding-top: 0;
+    float: left;
+    overflow: hidden;
+  }
+  #button {
+    width: 200px;
+    height: 52px;
+    background-color: #ff6162;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #ff6162;
+  }
+  #button a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+/* laod end */
+/* footer start */
+  .footer {
+    padding: 3px 0;
+    background-color: #f0f0f0;
+  }
+  .container9 {
+    width: 100%;
+    height: 99%;
+    font-size: 15px;
+    color: #008aff;
+  }
+  .float {
+    width: 90%;
+  }
+  .terms {
+    font-size: 20px;
+    color: #000000;
+    margin: 55px;
+  }
+  .Follow {
+    text-decoration: none;
+    float: right;
+  }
+/* footer end */
